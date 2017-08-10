@@ -9,7 +9,7 @@ git clone https://github.com/BrianAllenGit/Smile.io-Ember.git
 ```
   - Navigate into the newly created directory. From there, we will install and start the Ember app.
 ```
-cd bookstore/
+cd Smile.io-Ember/
 npm install
 ember server --proxy http://localhost:3000
 ```
