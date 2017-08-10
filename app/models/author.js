@@ -1,6 +1,8 @@
 import { hasMany } from 'ember-data/relationships';
 import Ember from 'ember';
 import Publisher from './publisher';
+import DS from 'ember-data';
+
 
 export default Publisher.extend({
 	books: hasMany('book', { async: true }),
