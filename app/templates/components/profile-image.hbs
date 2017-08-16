@@ -1,0 +1,6 @@
+{{!- If the user has a profile image, display it. else, display a placeholder image}}
+{{#if profileImage}}
+	<img src={{profileImage}} height={{height}} width={{width}}/>
+{{else}}
+	<img src="http://via.placeholder.com/{{height}}x{{width}}" height={{height}} width={{width}}/>
+{{/if}}

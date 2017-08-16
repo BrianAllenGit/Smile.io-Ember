@@ -20,6 +20,9 @@ ul div {
 }
 
 ul li {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
   padding: 1em;
   border: 6px solid #AFAFAF;
   background: #E9E9E9;
